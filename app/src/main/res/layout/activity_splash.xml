@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="162dp"
+        android:layout_height="240dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="160dp"
+        app:srcCompat="@mipmap/icon" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="409dp"
+        android:layout_height="63dp"
+        android:fontFamily="cursive"
+        android:text="Pizza Recipes"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:textSize="43sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="384dp"
+        android:layout_height="51dp"
+        android:fontFamily="cursive"
+        android:text="Make Your Pizza"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+
+</LinearLayout>
